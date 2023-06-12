@@ -20,7 +20,7 @@ input.addEventListener("change", () => {
 const chfSet = () => {
   if (sel.value === "chf") {
     axios
-      .get("http://api.nbp.pl/api/exchangerates/rates/a/chf/")
+      .get("https://api.nbp.pl/api/exchangerates/rates/a/chf/")
       .then((response) => {
         const chf = response.data.rates[0].mid;
         const convertedChf = chf * input.value;
@@ -38,7 +38,7 @@ const chfSet = () => {
 const usdSet = () => {
   if (sel.value === "usd") {
     axios
-      .get("http://api.nbp.pl/api/exchangerates/rates/a/usd/")
+      .get("https://api.nbp.pl/api/exchangerates/rates/a/usd/")
       .then((response) => {
         const usd = response.data.rates[0].mid;
         const convertedUsd = usd * input.value;
@@ -56,7 +56,7 @@ const usdSet = () => {
 const euroSet = () => {
   if (sel.value === "eur") {
     axios
-      .get("http://api.nbp.pl/api/exchangerates/rates/a/eur/")
+      .get("https://api.nbp.pl/api/exchangerates/rates/a/eur/")
       .then((response) => {
         const euro = response.data.rates[0].mid;
         const convertedEuro = euro * input.value;
