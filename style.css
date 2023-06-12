@@ -1,0 +1,71 @@
+body {
+  background: #92e4ea;
+}
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+}
+.main {
+  display: flex;
+}
+.logo {
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(177, 96, 96);
+  width: 150px;
+  height: 150px;
+}
+.app-name {
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 150px;
+  background-color: rgb(62, 171, 165);
+  font-size: 40px;
+  margin-left: 40px;
+}
+.recalculate {
+  border-radius: 1em;
+  background-color: brown;
+  margin-top: 30px;
+  width: 650px;
+  height: 100px;
+  font-size: 20px;
+}
+.amount {
+  width: 100px;
+  height: 50px;
+  border-radius: 1em;
+  font-weight: bolder;
+}
+.currencies {
+  width: 80px;
+  height: 50px;
+  border-radius: 1em;
+  font-weight: bolder;
+}
+.convert-bnt {
+  width: 100px;
+  height: 50px;
+  border-radius: 1em;
+  font-weight: bolder;
+}
+.recalculate {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.converted {
+  width: 100px;
+  height: 50px;
+  border-radius: 1em;
+  background-color: white;
+  font-weight: bolder;
+}
