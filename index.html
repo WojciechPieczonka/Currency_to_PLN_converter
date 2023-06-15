@@ -14,36 +14,37 @@
     <main>
       <div class="center">
         <div class="main">
-          <div class="logo">LOGO</div>
-          <div class="app-name">Currency to PLN converter</div>
+          <div class="logo radius-border">LOGO</div>
+          <div class="app-name radius-border">Currency to PLN converter</div>
         </div>
-        <div class="recalculate">
+        <div class="recalculate radius-border">
           <input
             type="number"
             name="amount"
             placeholder=" to convert"
-            class="amount"
+            class="amount radius-border"
             id="input"
             value="0"
           />
-          <select name="currency" id="select" class="currencies">
-            <option value=" ">Curency</option>
+          <select name="currency" id="select" class="currencies radius-border">
             <option value="eur">EUR</option>
             <option value="usd">USD</option>
             <option value="chf">CHF</option>
           </select>
-          <button class="convert-bnt" id="convertBtn">Convert!</button>
-          <p class="to"><strong>to:</strong></p>
+          <button class="convert-bnt radius-border" id="convertBtn">
+            Convert!
+          </button>
+          <p class="to">To:</p>
           <div class="recalculated">
             <input
               type="number"
-              class="converted"
+              class="converted radius-border"
               id="converted"
               value="0"
               disabled
             />
           </div>
-          <p><strong>PLN</strong></p>
+          <p>PLN</p>
         </div>
       </div>
     </main>
