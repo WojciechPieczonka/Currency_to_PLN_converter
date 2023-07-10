@@ -15,7 +15,7 @@ const convertValue = () => {
 
 const convertBtn = document.querySelector("#convertBtn");
 convertBtn.addEventListener("click", () => {
-  if (input.value >= 1) {
+  if (input.value >= 0.01) {
     convertValue();
   }
 });
